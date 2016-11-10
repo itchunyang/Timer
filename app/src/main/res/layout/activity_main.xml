@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itchunyang.timer.MainActivity">
+
+    <TableRow>
+
+        <Button
+            android:textAllCaps="false"
+            android:onClick="timerTask"
+            android:text="TimerTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:onClick="stopTimerTask"
+            android:text="StopTimerTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:onClick="alarmBroadcast"
+            android:text="Alarm_Broadcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:onClick="stopAlarm"
+            android:text="StopAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:onClick="alarmActivity"
+            android:text="Alarm_Activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:onClick="setWindow"
+            android:text="SetWindow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:onClick="setExact"
+            android:text="SetExact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </TableRow>
+
+</TableLayout>
